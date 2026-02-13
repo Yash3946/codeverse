@@ -34,6 +34,7 @@ public class SessionController {
 
 	@PostMapping("/register")
 	public String register(UserEntity userEntity, UserDetailEntity userDetailEntity) {
+		
 		System.out.println(userEntity.getFirstName());
 		System.out.println(userEntity.getLastName());
 		System.out.println("Processor => " + Runtime.getRuntime().availableProcessors());

@@ -13,7 +13,7 @@ import com.grownited.repository.CategoryRepository;
 
 @Controller
 public class CategoryController {
-
+ 
 	@Autowired // inject 
 	CategoryRepository categoryRepository; 
 	
